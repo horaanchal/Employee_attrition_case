@@ -2,8 +2,8 @@
 Understanding the reason of employee turnover rate in a company using visualization and machine learning techniques in Python language
 ## About Dataset
 Import from https://www.kaggle.com/HRAnalyticRepository/employee-attrition-data
-Data is a mix of string and integer values.
-Some features with strings should be dates. These should be converted to date and time if used. The features are recorddate_key, birthdate_key, orighiredate_key, and terminationdate_key.
+\\Data is a mix of string and integer values.
+\\Some features with strings should be dates. These should be converted to date and time if used. The features are recorddate_key, birthdate_key, orighiredate_key, and terminationdate_key.
 EmployeeID is for identification. It shouldn't be used for training the machine learning model, but can be useful for filtering rows.
 The age can be found by usng the record date and the birth date. So one set may be dropped.
 The length of service can be found using the record date and the original hire date. So one set may be dropped.
